@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Quiz Música</title>
+          <meta name="description" content="Um Quiz interativo para testar seus conhecimentos">
+          <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <header>
+                <h1>Quiz Interativo sobre Música</h1>
+                <p>Teste seus conhecimentos musicais e veja qual pontuação você consegue fazer!</p>
+          </header>
+          <main>
+            <!--Introdução-->
+              <section>
+                    <h2>Sobre esse Quiz</h2>
+                    <p><strong>Esse quiz</strong> foi desenvolvido para testar seus
+                     conhecimentos sobre músicas brasileiras e conceitos básicos.</p>
+                    <p> Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha. <br> Desafie-se com este quiz!</p> 
+              </section>
+              <!--Pergunta 1: Múltipla escolha-->
+              <section>
+                 <h2>Pergunta 1: Quem canta Garota de Ipanema?</h2>
+                 <form>
+                    <input type="radio" value="Gal Costa" id="p1a" name="pergunta1">
+                    <label for="p1a">Gal Costa</label><br>
+                    <input type="radio" value="Caetano Veloso" id="p1b" name="pergunta1">
+                    <label for="p1b">Caetano Veloso</label><br>
+                    <input type="radio" value="Tom Jobim" id="p1c" name="pergunta1">
+                    <label for="p1c">Tom Jobim</label><br>
+                    <input type="radio" value="Alcione" id="p1d" name="pergunta1">
+                    <label for="p1d">Alcione</label><br>
+                 </form>
+              </section>
+              <!--Pergunta 2: Texto-->
+              <section>
+                <h2>Pergunta 2: Qual o gênero musical de Marisa Monte? é o ___</h2>
+                <form>
+                     <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+              </section>
+              <!--Pergunta 3: Data-->
+              <section>
+                <h2>Pergunta 3: Em que ano foi lançado o álbum Bang da Anitta?</h2>
+                <form>
+                        <input type="date" id="p3" name="pergunta3">
+                </form>
+              </section>
+              <!--Pergunta 4: Seleção Múltipla-->
+              <section>
+                     <h2>Pergunta 4: Qual é o maior festival de música do Brasil?</h2>
+                     <form>
+                         <input type="checkbox" id="p4a" name="pergunta4" value="Rock in Rio">
+                         <label for="p4a">Rock in Rio</label><br>
+                         <input type="checkbox" id="p4b" name="pergunta4" value="Lollapalooza">
+                         <label for="p4b">Lollapalooza</label><br>
+                         <input type="checkbox" id="p4c" name="pergunta4" value="Villa Mix">
+                         <label for="p4c">Villa Mix</label><br>
+                         <input type="checkbox" id="p4d" name="pergunta4" value="The Town">
+                         <label for="p4d">The Town</label><br>
+                     </form>
+              </section>
+              <!--Pergunta 5: Múltipla escolha-->
+              <section>
+                    <h2>Pergunta 5: Quem canta a música "Deixa a vida me levar"?</h2>
+                    <form>
+                        <input type="radio" value="Seu Jorge" id="p5a" name="pergunta5">
+                        <label for="p5a">Seu Jorge</label><br>
+                        <input type="radio" value="Zeca Pagodinho" id="p5b" name="pergunta5">
+                        <label for="p5b">Zeca Pagodinho</label><br>
+                        <input type="radio" value="Belo" id="p5c" name="pergunta5">
+                        <label for="p5c">Belo</label><br>
+                        <input type="radio" value="Alexandre Pires" id="p5d" name="pergunta5">
+                        <label for="p5d">Alexandre Pires</label><br>
+                    </form>
+              </section>
+              <!--Pergunta 6: Menu suspenso-->
+              <section>
+                    <h2>Pergunta 6: Selecione em que gênero Ludmila começou na música:</h2>
+                    <form>
+                      <select name="pergunta6" id="p6">
+                        <option value="Gênero">Gênero</option>
+                        <option value="Sertanejo">Sertanejo</option>
+                        <option value="Samba">Samba</option>
+                        <option value="Funk">Funk</option>
+                        <option value="Pop">Pop</option>
+                        <option value="MPB">MPB</option>
+                      </select>
+                    </form>
+              </section>
+              <!--Pergunta 7: Multipla escolha-->
+              <section>
+                <h2>Pergunta 7: Complete o Nome Ivete?</h2>
+                <form>
+                    <input type="radio" value="Silva" id="p7a" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <label for="p7a">Silva</label><br>
+                    <input type="radio" value="Oliveira" id="p7b" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <label for="p7b">Oliveira</label><br> <!-- Corrigido: Fechamento da tag <br> -->
+                    <input type="radio" value="Mendes" id="p7c" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <label for="p7c">Mendes</label><br>
+                    <input type="radio" value="Sangalo" id="p7d" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <label for="p7d">Sangalo</label><br>
+                </form>
+              </section>
+              <!--Pergunta 8: Multipla escolha-->
+              <section>
+                <h2>Pergunta 8:Quem é o cantor de forró que popularizou o ritmo?</h2>
+                <form>
+                    <input type="radio" value="Chitãozinho e Xororó" id="p8a" name="pergunta8">
+                    <label for="p8a">Chitãozinho e Xororó</label><br>
+                    <input type="radio" value="Elba Ramalho" id="p8b" name="pergunta8">
+                    <label for="p8b">Elba Ramalho</label><br>
+                    <input type="radio" value="Luiz Gonzaga" id="p8c" name="pergunta8">
+                    <label for="p8c">Luiz Gonzaga</label><br>
+                    <input type="radio" value="João Gomes" id="p8d" name="pergunta8">
+                    <label for="p8d">João Gomes</label><br>
+                </form>
+              </section>
+              <!--Tabela de Pontuação-->
+              <section>
+                  <h2>Tabela de Pontuação</h2>
+                    <table border="1">
+                        <thead>
+                             <tr>
+                                <th>Pontuação</th>
+                                <th>Avaliação</th>
+                             </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0-2</td>
+                                <td>Não desista! Você está quase lá</td>
+                            </tr>
+                            <tr>
+                                <td>3-4</td>
+                                <td>Bom! Dá pra melhorar.</td>
+                            </tr>
+                            <tr>
+                                <td>5-7</td>
+                                <td>Otimo! Você conhece um pouco sobre</td>
+                            </tr>
+                            <tr>
+                                 <td>8</td>
+                                 <td>Perfeito! Você conhece sobre as músicas brasileira</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Boa Sorte na Próxima! Você é melhor que isso.</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+              </section>
+              <!--Listas de Respostas-->
+              <section>
+                <h2>Verifique suas Respostas</h2>
+                <details>
+                    <summary> Clique aqui para ver as Respostas do quiz</summary>
+                    <ol>
+                      <li>Tom Jobim</li>
+                      <li>MPB</li>
+                      <li>13/10/2015</li>
+                      <li>Rock in Rio</li>
+                      <li>Zeca Pagodinho</li>
+                      <li>Funk</li>
+                      <li>Sangalo</li>
+                      <li>Luiz Gonzaga</li>
+                   </ol>
+                </details>
+              </section>
+              <!--Formulário de Feedback-->
+              <section>
+                <h2>Nos dê o seu Feedback</h2>
+                <form>
+                 <fieldset>
+                    <legend>Seus Comentários</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <label for="Comentario">Comentário:</label><br>
+                    <textarea id="Comentarios" name="Comentarios" rows="4" cols="50" placeholder="Digite seu comentário aqui!"></textarea><br> <!-- Corrigido: "comentario" para "comentário" -->
+                    <button onclick="alert('FEEDBACK ENVIADO')">Envie o seu Feedback</button>
+                 </fieldset>
+                </form>
+              </section>
+          </main>
+          <footer>
+            <p class="paragrafo-footer">&copy Quiz música. Todos os direitos reservados</p> <!-- Corrigido: "direiros" para "direitos" -->
+            <p class="paragrafo-footer">Pra conhecer outras páginas, <a href="https://www.google.com" target="_blank">clique aqui</a></p> <!-- Corrigido: "ostras" para "outras" -->
+          </footer>
+    </body>
+</html>
