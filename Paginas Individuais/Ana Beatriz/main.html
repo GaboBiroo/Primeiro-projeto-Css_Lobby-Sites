@@ -3,7 +3,7 @@
     <head>
           <title>Quiz Música</title>
           <meta name="description" content="Um Quiz interativo para testar seus conhecimentos">
-          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="../../Template/Style.css">
     </head>
     <body>
           <header>
@@ -11,14 +11,14 @@
                 <p>Teste seus conhecimentos musicais e veja qual pontuação você consegue fazer!</p>
           </header>
           <main>
-            <!--Introdução-->
+            
               <section>
                     <h2>Sobre esse Quiz</h2>
                     <p><strong>Esse quiz</strong> foi desenvolvido para testar seus
                      conhecimentos sobre músicas brasileiras e conceitos básicos.</p>
                     <p> Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha. <br> Desafie-se com este quiz!</p> 
               </section>
-              <!--Pergunta 1: Múltipla escolha-->
+              
               <section>
                  <h2>Pergunta 1: Quem canta Garota de Ipanema?</h2>
                  <form>
@@ -32,21 +32,21 @@
                     <label for="p1d">Alcione</label><br>
                  </form>
               </section>
-              <!--Pergunta 2: Texto-->
+              
               <section>
                 <h2>Pergunta 2: Qual o gênero musical de Marisa Monte? é o ___</h2>
                 <form>
                      <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
                 </form>
               </section>
-              <!--Pergunta 3: Data-->
+             
               <section>
                 <h2>Pergunta 3: Em que ano foi lançado o álbum Bang da Anitta?</h2>
                 <form>
                         <input type="date" id="p3" name="pergunta3">
                 </form>
               </section>
-              <!--Pergunta 4: Seleção Múltipla-->
+              
               <section>
                      <h2>Pergunta 4: Qual é o maior festival de música do Brasil?</h2>
                      <form>
@@ -60,7 +60,7 @@
                          <label for="p4d">The Town</label><br>
                      </form>
               </section>
-              <!--Pergunta 5: Múltipla escolha-->
+             
               <section>
                     <h2>Pergunta 5: Quem canta a música "Deixa a vida me levar"?</h2>
                     <form>
@@ -74,7 +74,7 @@
                         <label for="p5d">Alexandre Pires</label><br>
                     </form>
               </section>
-              <!--Pergunta 6: Menu suspenso-->
+            
               <section>
                     <h2>Pergunta 6: Selecione em que gênero Ludmila começou na música:</h2>
                     <form>
@@ -88,21 +88,19 @@
                       </select>
                     </form>
               </section>
-              <!--Pergunta 7: Multipla escolha-->
+            
               <section>
                 <h2>Pergunta 7: Complete o Nome Ivete?</h2>
                 <form>
-                    <input type="radio" value="Silva" id="p7a" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
-                    <label for="p7a">Silva</label><br>
-                    <input type="radio" value="Oliveira" id="p7b" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
-                    <label for="p7b">Oliveira</label><br> <!-- Corrigido: Fechamento da tag <br> -->
-                    <input type="radio" value="Mendes" id="p7c" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
-                    <label for="p7c">Mendes</label><br>
-                    <input type="radio" value="Sangalo" id="p7d" name="pergunta7"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <input type="radio" value="Silva" id="p7a" name="pergunta7"> 
+                    <input type="radio" value="Oliveira" id="p7b" name="pergunta7"> 
+                    <label for="p7b">Oliveira</label><br> 
+                    <input type="radio" value="Mendes" id="p7c" name="pergunta7"> 
+                    <input type="radio" value="Sangalo" id="p7d" name="pergunta7"> 
                     <label for="p7d">Sangalo</label><br>
                 </form>
               </section>
-              <!--Pergunta 8: Multipla escolha-->
+           
               <section>
                 <h2>Pergunta 8:Quem é o cantor de forró que popularizou o ritmo?</h2>
                 <form>
@@ -116,7 +114,7 @@
                     <label for="p8d">João Gomes</label><br>
                 </form>
               </section>
-              <!--Tabela de Pontuação-->
+            
               <section>
                   <h2>Tabela de Pontuação</h2>
                     <table border="1">
@@ -151,7 +149,7 @@
                         </tfoot>
                     </table>
               </section>
-              <!--Listas de Respostas-->
+           
               <section>
                 <h2>Verifique suas Respostas</h2>
                 <details>
@@ -168,24 +166,24 @@
                    </ol>
                 </details>
               </section>
-              <!--Formulário de Feedback-->
+           
               <section>
                 <h2>Nos dê o seu Feedback</h2>
                 <form>
                  <fieldset>
                     <legend>Seus Comentários</legend>
                     <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name"> <!-- Corrigido: Fechamento da tag <input> -->
+                    <input type="text" id="name" name="name"> 
                     <label for="Comentario">Comentário:</label><br>
-                    <textarea id="Comentarios" name="Comentarios" rows="4" cols="50" placeholder="Digite seu comentário aqui!"></textarea><br> <!-- Corrigido: "comentario" para "comentário" -->
+                    <textarea id="Comentarios" name="Comentarios" rows="4" cols="50" placeholder="Digite seu comentário aqui!"></textarea><br> 
                     <button onclick="alert('FEEDBACK ENVIADO')">Envie o seu Feedback</button>
                  </fieldset>
                 </form>
               </section>
           </main>
           <footer>
-            <p class="paragrafo-footer">&copy Quiz música. Todos os direitos reservados</p> <!-- Corrigido: "direiros" para "direitos" -->
-            <p class="paragrafo-footer">Pra conhecer outras páginas, <a href="https://www.google.com" target="_blank">clique aqui</a></p> <!-- Corrigido: "ostras" para "outras" -->
+            <p class="paragrafo-footer">&copy Quiz música. Todos os direitos reservados</p> 
+            <p class="paragrafo-footer">Pra conhecer outras páginas, <a href="../../Index.html">Clique Aqui</a></p>
           </footer>
     </body>
 </html>
